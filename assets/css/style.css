@@ -125,6 +125,7 @@ body {
             .projects {
                 font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
                 background-color: #ffffff;
+                color: yellow;
                 margin: 10px;
                 height: auto;
                 display: flex;
