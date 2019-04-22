@@ -134,6 +134,7 @@ body {
                 background-image: url("https://s3-us-west-2.amazonaws.com/uw-s3-cdn/wp-content/uploads/sites/98/2014/09/07214435/Signature_Stacked_Purple_Hex.png");
                 background-position: center;
                 background-repeat: no-repeat;
+                /* background-size: cover; */
                 /* font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; */
                 font-family: 'Montserrat', sans-serif;
                 background-color: #ffffff;
@@ -144,8 +145,22 @@ body {
                 flex-wrap: wrap;
                 position: relative; 
             }
+        .portfolio2 {
+            font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+            line-height: 1.5em;
+            font-size: 20px;
+            background-color: #ffffff;
+            color: #777777;
+            border-color: #dddddd;
+            border: 10px;
+            padding: 40px;
+            margin: 10px auto;
+        }
             .pictures {
                 background-image: url("orchid-for-web.png");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
                 /* font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; */
                 margin: 10px;
                 height: auto;
