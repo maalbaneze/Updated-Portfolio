@@ -6,7 +6,8 @@ body {
     background-image: url("pexels-photo-242236.jpg");
     }
     header {
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        /* font-family: Georgia, 'Times New Roman', Times, serif; */
+        font-family: 'Ubuntu', sans-serif;
         width: 100%;
         background-color: #ffffff;
         margin: 0;
@@ -15,7 +16,8 @@ body {
         }
         #top {
             padding: 15px;
-            background-color:#4aaaa5;
+            /* background-color:#4aaaa5; */
+            background-color:blue;
             color: white;
             border-color: #cccccc;
             margin: 0px 0px 0px 130px;
@@ -23,9 +25,15 @@ body {
             text-align: center;
             height: 64px;
             }
+            #location {
+                text-align: right;
+                font-style: italic;
+                color: seagreen;
+            }
             .navigation {
-                clear: right;
-                font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+                clear: center;
+                /* font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; */
+                font-family: 'Ubuntu', sans-serif;
                 padding: 10px;
                 margin: 10px 40px 10px 180px;
                 }
@@ -54,7 +62,7 @@ body {
         }
         h2 {
             font-family: 'Georgia', Times, 'Times New Roman', serif;
-            color: #4aaaa5;
+            color: blue;
             font-size: 24px;
             }
         .main-bio {
@@ -91,7 +99,7 @@ body {
                 } 
                 input {
                     width: 620px;
-                    height: 20px;
+                    /* height: 20px; */
                     font-size: 16px;
                     margin: 8px 0;
                     }
@@ -105,7 +113,7 @@ body {
                     resize: none;
                     }   
                 input[type=submit] {
-                    background-color: #4aaaa5;
+                    background-color: #2d5ec9;
                     color: #ffffff;
                     font-size: 14px;
                     width: 80px;
@@ -123,9 +131,13 @@ body {
             margin: 10px auto;
             }      
             .projects {
-                font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+                background-image: url("https://s3-us-west-2.amazonaws.com/uw-s3-cdn/wp-content/uploads/sites/98/2014/09/07214435/Signature_Stacked_Purple_Hex.png");
+                background-position: center;
+                background-repeat: no-repeat;
+                /* font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; */
+                font-family: 'Montserrat', sans-serif;
                 background-color: #ffffff;
-                color: yellow;
+                /* color: yellow; */
                 margin: 10px;
                 height: auto;
                 display: flex;
@@ -153,7 +165,9 @@ body {
             figcaption {
                 padding-bottom: 20px;
                 color: #ffffff;
-                background-color: #4aaaa5;
+                background-color: rgb(55, 55, 237);
+                border: 5px solid rgb(221, 228, 76);
+                /* border-color: cyan; */
                 width: 220px;
                 text-align: center;
                 }
@@ -167,7 +181,7 @@ body {
         position: fixed;
         left: 0px;
         bottom: 0px;
-        border-top: 8px solid #4aaaa5;
+        border-top: 8px solid blue;
         background-color: #666666;
         color: lightgrey;
         padding: 15px;
